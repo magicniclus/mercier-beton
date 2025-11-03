@@ -26,7 +26,7 @@ export default function Hero({
   backgroundImage,
   backgroundVideo,
   title = "ROUAT DAVID - Peintre professionnel en Auvergne-Rhône-Alpes",
-  description = "Entrepreneur du secteur du bâtiment spécialisé en peinture intérieure et extérieure. Votre partenaire de confiance pour tous vos projets de peinture et rénovation en Auvergne-Rhône-Alpes.",
+  description = "Expert du secteur du bâtiment depuis plus de 15 ans, spécialisé en peinture intérieure et extérieure. Votre partenaire de confiance pour tous vos projets de peinture et rénovation dans le secteur résidentiel et commercial en Auvergne-Rhône-Alpes.",
   bulletPoints = [
     "Spécialiste peinture intérieure et extérieure",
     "Expert en finitions et décoration",
