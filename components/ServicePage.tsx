@@ -119,7 +119,7 @@ export default function ServicePage({
     "description": mainDescription,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "ORAN-BAT63",
+      "name": "ARCADE BTP",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {

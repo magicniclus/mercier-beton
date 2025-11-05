@@ -18,6 +18,7 @@ export default function Footer() {
     { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
     { name: 'Ravalement de Façade', href: '/services/ravalement-facade' },
     { name: 'Finitions et Décoration', href: '/services/finitions-decoration' },
+    { name: 'Carrelage', href: '/services/carrelage' },
   ];
 
   return (
