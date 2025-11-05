@@ -1,7 +1,7 @@
 {
   "company": {
-    "name": "ARCADE BTP",
-    "legalName": "ARCADE BTP - Entrepreneur du bâtiment",
+    "name": "Mercier Béton",
+    "legalName": "Mercier Béton - Entrepreneur du bâtiment",
     "address": "93260, Île-de-France",
     "phone": "06 22 84 77 04",
     "email": "batinove2020@gmail.com",
@@ -9,8 +9,8 @@
     "ceo": "SEIF"
   },
   "hero": {
-    "title": "ARCADE BTP - Entreprise de rénovation en Île-de-France",
-    "subtitle": "Entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement. Votre partenaire de confiance dans le secteur du bâtiment pour tous vos projets de rénovation dans le 93260 et Île-de-France.",
+    "title": "Mercier Béton - Entreprise de rénovation en Île-de-France",
+    "subtitle": "Expert du secteur du bâtiment spécialisé en rénovation intérieure et ravalement. Votre partenaire de confiance dans le secteur du BTP pour tous vos projets de rénovation dans le 93260 et Île-de-France.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -22,7 +22,7 @@
         "smallTitle": "Notre expertise",
         "title": "Spécialiste de la rénovation",
         "subtitle": "Expert en rénovation intérieure et ravalement",
-        "content": "ARCADE BTP est spécialisé dans les travaux de rénovation intérieure et le ravalement. Nous mettons notre expertise au service de vos projets de rénovation. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes dans le 93260 et Île-de-France.",
+        "content": "Mercier Béton est spécialisé dans les travaux de rénovation intérieure et le ravalement. Nous mettons notre expertise au service de vos projets de rénovation. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes dans le 93260 et Île-de-France.",
         "image": "/maison-work.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",

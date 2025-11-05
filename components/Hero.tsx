@@ -24,8 +24,8 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "ARCADE BTP - Entreprise de rénovation en Île-de-France",
-  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement. Votre partenaire de confiance dans le secteur du bâtiment pour tous vos projets de rénovation dans le 93260 et Île-de-France.",
+  title = "Mercier Béton - Entreprise de rénovation en Île-de-France",
+  description = "Expert du secteur du bâtiment spécialisé en rénovation intérieure et ravalement. Votre partenaire de confiance dans le secteur du BTP pour tous vos projets de rénovation dans le 93260 et Île-de-France.",
   bulletPoints = [
     "Spécialiste rénovation intérieure",
     "Expert en ravalement de façade",
