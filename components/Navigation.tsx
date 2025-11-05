@@ -19,27 +19,27 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "07 45 65 62 25";
+  const phoneNumber = "06 22 84 77 04";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Carrelage Intérieur', href: '/services/carrelage-interieur' },
-    { name: 'Carrelage Extérieur', href: '/services/carrelage-exterieur' },
-    { name: 'Revêtements de Sol', href: '/services/revetements-sol' },
+    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
+    { name: 'Ravalement de Façade', href: '/services/ravalement-facade' },
+    { name: 'Finitions et Décoration', href: '/services/finitions-decoration' },
   ];
 
   // Navigation adaptative selon la page
   const navigationLinks = isHomePage ? [
-    { name: 'Mon expertise', href: '#expertise' },
+    { name: 'Notre expertise', href: '#expertise' },
     { name: 'Services', href: '#services', hasDropdown: true },
-    { name: 'Mes réalisations', href: '#realisations' },
+    { name: 'Nos réalisations', href: '#realisations' },
   ] : [
-    { name: 'Mon expertise', href: '/#expertise' },
+    { name: 'Notre expertise', href: '/#expertise' },
     { name: 'Services', href: '/#services', hasDropdown: true },
-    { name: 'Mes réalisations', href: '/#realisations' },
+    { name: 'Nos réalisations', href: '/#realisations' },
   ];
 
   // Prevent body scroll when mobile menu is open
@@ -100,10 +100,10 @@ export default function Navigation() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-foreground">
-                  ORAN-BAT63
+                  ARCADE BTP
                 </span>
                 <span className="text-sm text-gray-500 font-medium">
-                  carrelage | revêtements de sol
+                  rénovation | ravalement
                 </span>
               </div>
             </Link>
@@ -287,10 +287,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    ORAN-BAT63
+                    ARCADE BTP
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    carrelage | revêtements de sol
+                    rénovation | ravalement
                   </span>
                 </div>
               </div>

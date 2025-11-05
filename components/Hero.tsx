@@ -24,12 +24,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "ROUAT DAVID - Peintre professionnel en Auvergne-Rhône-Alpes",
-  description = "Professionnel du secteur BTP depuis plus de 15 ans, expert en peinture intérieure et extérieure. Votre partenaire de confiance dans le secteur du bâtiment pour tous vos projets de peinture et rénovation résidentielle et commerciale en Auvergne-Rhône-Alpes.",
+  title = "ARCADE BTP - Entreprise de rénovation en Île-de-France",
+  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement. Votre partenaire de confiance dans le secteur du bâtiment pour tous vos projets de rénovation dans le 93260 et Île-de-France.",
   bulletPoints = [
-    "Spécialiste peinture intérieure et extérieure",
-    "Expert en finitions et décoration",
-    "Intervention en Auvergne-Rhône-Alpes (01800)"
+    "Spécialiste rénovation intérieure",
+    "Expert en ravalement de façade",
+    "Intervention en Île-de-France (93260)"
   ],
   googleReviewsWidget
 }: HeroProps) {

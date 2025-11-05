@@ -62,8 +62,8 @@ export default function MerciPage() {
               Que se passe-t-il maintenant ?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              J'ai bien reçu votre demande et je vous remercie de votre confiance. 
-              Je vais étudier votre projet de carrelage et vous recontacter rapidement.
+              Nous avons bien reçu votre demande et nous vous remercions de votre confiance. 
+              Nous allons étudier votre projet de rénovation et vous recontacter rapidement.
             </p>
           </div>
 
@@ -81,7 +81,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Analyse de votre demande</h3>
                 <p className="text-gray-600 text-sm">
-                  J'étudie votre demande de carrelage et prépare mon intervention.
+                  Nous étudions votre demande de rénovation et préparons notre intervention.
                 </p>
               </div>
             </motion.div>
@@ -98,7 +98,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Prise de contact sous 24h</h3>
                 <p className="text-gray-600 text-sm">
-                  ORAN-BAT63 vous contacte pour affiner votre demande et planifier les travaux de carrelage.
+                  ARCADE BTP vous contacte pour affiner votre demande et planifier les travaux de rénovation.
                 </p>
               </div>
             </motion.div>
@@ -115,7 +115,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Devis personnalisé</h3>
                 <p className="text-gray-600 text-sm">
-                  Recevez un devis détaillé pour vos travaux de carrelage.
+                  Recevez un devis détaillé pour vos travaux de rénovation.
                 </p>
               </div>
             </motion.div>
@@ -129,7 +129,7 @@ export default function MerciPage() {
             transition={{ duration: 0.6, delay: 1.8 }}
           >
             <h3 className="font-semibold text-gray-900 mb-4 text-center">
-              Une question ? Contactez-moi
+              Une question ? Contactez-nous
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">
@@ -137,7 +137,7 @@ export default function MerciPage() {
                   <Phone className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">07 45 65 62 25</p>
+                  <p className="font-medium text-gray-900">06 22 84 77 04</p>
                   <p className="text-sm text-gray-600">Lun-Ven 9h-18h</p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export default function MerciPage() {
                   <Mail className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">oran.bat63@gmail.com</p>
+                  <p className="font-medium text-gray-900">batinove2020@gmail.com</p>
                   <p className="text-sm text-gray-600">Réponse sous 2h</p>
                 </div>
               </div>

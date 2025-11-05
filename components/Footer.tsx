@@ -15,9 +15,9 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Carrelage Intérieur', href: '/services/carrelage-interieur' },
-    { name: 'Carrelage Extérieur', href: '/services/carrelage-exterieur' },
-    { name: 'Revêtements de Sol', href: '/services/revetements-sol' },
+    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
+    { name: 'Ravalement de Façade', href: '/services/ravalement-facade' },
+    { name: 'Finitions et Décoration', href: '/services/finitions-decoration' },
   ];
 
   return (
@@ -49,17 +49,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  ORAN-BAT63
+                  ARCADE BTP
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Entrepreneur du bâtiment spécialisé en carrelage et revêtements de sol dans le 63430 et Auvergne-Rhône-Alpes.
+                Entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement dans le 93260 et Île-de-France.
               </p>
               <a 
-                href="tel:0745656225" 
+                href="tel:0622847704" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 45 65 62 25
+                06 22 84 77 04
               </a>
             </motion.div>
 
@@ -95,7 +95,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.15 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-lg font-semibold">Mes Prestations</h3>
+              <h3 className="text-lg font-semibold">Nos Prestations</h3>
               <ul className="space-y-2">
                 {servicesLinks.map((service) => (
                   <li key={service.name}>
@@ -121,11 +121,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0745656225"
+                  href="tel:0622847704"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 45 65 62 25</span>
+                  <span>06 22 84 77 04</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -146,7 +146,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} ORAN-BAT63. Tous droits réservés.
+              © {currentYear} ARCADE BTP. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\n63430\nAuvergne-Rhône-Alpes\n50 km autour de 63430",
-    phone: "07 45 65 62 25",
-    email: "oran.bat63@gmail.com",
+    address: "Zone d'intervention :\n93260\nÎle-de-France\nRayon d'intervention : Île-de-France",
+    phone: "06 22 84 77 04",
+    email: "batinove2020@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=63430,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=93260,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de carrelage ou revêtements de sol ? ORAN-BAT63 est là pour vous accompagner dans le 63430 et Auvergne-Rhône-Alpes.
+              Un projet de rénovation intérieure ou ravalement ? ARCADE BTP est là pour vous accompagner dans le 93260 et Île-de-France.
             </p>
           </motion.div>
         </div>
@@ -217,7 +217,7 @@ export default function ContactPage() {
             >
               {/* Contact Information */}
               <div className="bg-gray-50 rounded-2xl p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-8">Mes coordonnées</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-8">Nos coordonnées</h3>
                 
                 <div className="space-y-6">
                   {/* Address */}
@@ -307,7 +307,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-moi directement pour obtenir une estimation gratuite de vos travaux de peinture.
+              Appelez-nous directement pour obtenir une estimation gratuite de vos travaux de rénovation.
             </p>
             <Button
               size="lg"

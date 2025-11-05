@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "ORAN-BAT63 - Carreleur Professionnel en Auvergne-Rhône-Alpes",
-  description: "ORAN-BAT63, entrepreneur du bâtiment spécialisé en carrelage et revêtements de sol. Devis gratuit dans le 63430 et Auvergne-Rhône-Alpes.",
+  title: "ARCADE BTP - Entreprise de Rénovation en Île-de-France",
+  description: "ARCADE BTP, entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement. Devis gratuit dans le 93260 et Île-de-France.",
   keywords: [
-    "carrelage intérieur Auvergne-Rhône-Alpes",
-    "carrelage extérieur 63430",
-    "carreleur professionnel Auvergne",
-    "revêtements sol Rhône-Alpes",
-    "entrepreneur bâtiment 63430",
-    "carrelage maison Auvergne-Rhône-Alpes",
-    "travaux carrelage intérieur",
-    "carrelage décoratif",
-    "sol carrelé",
-    "finitions carrelage",
+    "rénovation intérieure Île-de-France",
+    "ravalement façade 93260",
+    "entrepreneur bâtiment Île-de-France",
+    "rénovation maison 93260",
+    "travaux rénovation intérieure",
+    "ravalement professionnel",
+    "finitions décoration",
+    "aménagement intérieur",
     "devis gratuit",
-    "ORAN-BAT63",
-    "Mohammed Hadjouti",
-    "carrelage Auvergne",
-    "entrepreneur bâtiment"
+    "ARCADE BTP",
+    "Seif",
+    "rénovation Île-de-France",
+    "entrepreneur bâtiment",
+    "SASU rénovation",
+    "travaux bâtiment 93260"
   ],
-  author: "Mohammed Hadjouti",
-  siteUrl: "https://oranbat63.fr",
-  siteName: "ORAN-BAT63 - Carrelage",
+  author: "Seif",
+  siteUrl: "https://arcadebtp.fr",
+  siteName: "ARCADE BTP - Rénovation",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,50 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "ORAN-BAT63",
-  "legalName": "Oran-bat63 - Entrepreneur du bâtiment",
+  "name": "ARCADE BTP",
+  "legalName": "ARCADE BTP - Entrepreneur du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Mohammed Hadjouti"
+    "name": "Seif"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "63430",
-    "postalCode": "63430",
-    "addressRegion": "Auvergne-Rhône-Alpes",
+    "addressLocality": "93260",
+    "postalCode": "93260",
+    "addressRegion": "Île-de-France",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33745656225",
+    "telephone": "+33622847704",
     "contactType": "customer service",
-    "email": "oran.bat63@gmail.com",
+    "email": "batinove2020@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Auvergne-Rhône-Alpes"
+      "name": "Île-de-France"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Puy-de-Dôme"
+      "name": "Seine-Saint-Denis"
     },
     {
       "@type": "City",
-      "name": "63430"
+      "name": "93260"
     }
   ],
   "serviceType": [
-    "Carrelage intérieur",
-    "Carrelage extérieur", 
-    "Revêtements de sol",
-    "Finitions carrelage",
-    "Travaux de carrelage"
+    "Rénovation intérieure",
+    "Ravalement de façade", 
+    "Finitions et décoration",
+    "Aménagement intérieur",
+    "Travaux de rénovation"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -172,37 +172,37 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Tiling Services",
+  "serviceType": "Renovation Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de carrelage",
+    "name": "Services de rénovation",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Carrelage intérieur",
-          "description": "Travaux de carrelage intérieur professionnels avec finitions parfaites"
+          "name": "Rénovation intérieure",
+          "description": "Travaux de rénovation intérieure professionnels avec finitions parfaites (tout sauf électricité et plomberie)"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Carrelage extérieur",
-          "description": "Carrelage extérieur et terrasses avec matériaux adaptés"
+          "name": "Ravalement de façade",
+          "description": "Ravalement de façade et rénovation extérieure avec techniques professionnelles"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Revêtements de sol",
-          "description": "Pose de revêtements de sol et finitions spéciales"
+          "name": "Finitions et décoration",
+          "description": "Finitions décoratives et aménagement d'espaces avec matériaux de qualité"
         }
       }
     ]

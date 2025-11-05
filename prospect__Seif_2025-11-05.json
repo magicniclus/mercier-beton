@@ -1,0 +1,41 @@
+{
+  "id": "r4Irbv3iKXz9Fwf8SH3u",
+  "informationsPersonnelles": {
+    "nom": "Seif",
+    "prenom": "",
+    "email": "batinove2020@gmail.com",
+    "telephone": "0622847704",
+    "etape": "A contacter",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1762340150,
+      "nanoseconds": 759000000
+    },
+    "rgpd": true,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "ARCADE BTP ",
+    "entreprise": "ARCADE BTP ",
+    "metier": "Entreprise de rénovation, renovation interieur (tout sauf electricite, plomberie), ravalement",
+    "secteurActivite": "Île-de-France",
+    "raisonSociale": "SASU",
+    "anneeCreation": "2025",
+    "nombreCollaborateurs": "1",
+    "prestation": "Entreprise de rénovation",
+    "rayonIntervention": "93260",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-05T11:25:59.739Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}
