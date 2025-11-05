@@ -24,12 +24,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "Mercier Béton - Entreprise de rénovation en Île-de-France",
-  description = "Expert du secteur du bâtiment spécialisé en rénovation intérieure et ravalement. Votre partenaire de confiance dans le secteur du BTP pour tous vos projets de rénovation dans le 93260 et Île-de-France.",
+  title = "MERCIER BÉTON - Entreprise de revêtement de sol dans les Hauts-de-France",
+  description = "Expert du secteur du bâtiment spécialisé en revêtement de sol. Votre partenaire de confiance dans le secteur du BTP pour tous vos projets de revêtement dans le 62950 et les Hauts-de-France.",
   bulletPoints = [
-    "Spécialiste rénovation intérieure",
-    "Expert en ravalement de façade",
-    "Intervention en Île-de-France (93260)"
+    "Spécialiste revêtement de sol",
+    "Expert en finitions professionnelles",
+    "Intervention dans les Hauts-de-France (62950)"
   ],
   googleReviewsWidget
 }: HeroProps) {

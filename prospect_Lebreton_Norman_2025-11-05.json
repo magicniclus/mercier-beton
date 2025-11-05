@@ -1,0 +1,41 @@
+{
+  "id": "ctGkogfiVs4ARvoJz3Jd",
+  "informationsPersonnelles": {
+    "nom": "Norman",
+    "prenom": "Lebreton",
+    "email": "nourmane-62@hotmail.fr",
+    "telephone": "0621352375",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1762346710,
+      "nanoseconds": 902000000
+    },
+    "rgpd": true,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "Mercier Béton ",
+    "entreprise": "Mercier Béton ",
+    "metier": "Entreprise de revêtement de sol",
+    "secteurActivite": "Hauts-de-France",
+    "raisonSociale": "",
+    "anneeCreation": "",
+    "nombreCollaborateurs": "1",
+    "prestation": "Entreprise de revêtement de sol",
+    "rayonIntervention": "62950",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-05T13:51:15.111Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

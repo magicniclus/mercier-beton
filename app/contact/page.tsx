@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\n93260\nÎle-de-France\nRayon d'intervention : Île-de-France",
-    phone: "06 22 84 77 04",
-    email: "batinove2020@gmail.com",
+    address: "Zone d'intervention :\n62950\nHauts-de-France\nRayon d'intervention : Hauts-de-France",
+    phone: "06 21 35 23 75",
+    email: "nourmane-62@hotmail.fr",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=93260,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=62950,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de rénovation intérieure ou ravalement ? ARCADE BTP est là pour vous accompagner dans le 93260 et Île-de-France.
+              Un projet de revêtement de sol ? MERCIER BÉTON est là pour vous accompagner dans le 62950 et les Hauts-de-France.
             </p>
           </motion.div>
         </div>
@@ -307,7 +307,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-nous directement pour obtenir une estimation gratuite de vos travaux de rénovation.
+              Appelez-nous directement pour obtenir une estimation gratuite de vos travaux de revêtement de sol.
             </p>
             <Button
               size="lg"

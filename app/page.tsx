@@ -21,50 +21,50 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Rénovation Intérieure",
-      subtitle: "Rénovation complète d'intérieur",
-      content: "Travaux de rénovation intérieure professionnels. Transformation complète de vos espaces de vie avec des finitions parfaites (tout sauf électricité et plomberie).",
+      title: "Revêtement de Sol Béton",
+      subtitle: "Béton ciré et décoratif",
+      content: "Spécialiste du béton ciré et des revêtements décoratifs. Création de sols modernes et durables pour vos espaces intérieurs et extérieurs.",
       image: "/peinture.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/renovation-interieure"
+      href: "/services/revetement-beton"
     },
     {
-      title: "Ravalement de Façade",
-      subtitle: "Ravalement et façades",
-      content: "Ravalement de façade et rénovation extérieure. Protection et embellissement de vos façades avec des techniques professionnelles.",
+      title: "Revêtement de Sol Industriel",
+      subtitle: "Solutions professionnelles",
+      content: "Revêtements de sol industriels haute performance. Solutions adaptées aux contraintes techniques et esthétiques de vos locaux professionnels.",
       image: "/maison-work.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/ravalement-facade"
+      href: "/services/revetement-industriel"
     },
     {
-      title: "Finitions et Décoration",
-      subtitle: "Finitions et aménagement",
-      content: "Finitions décoratives et aménagement d'espaces. Création d'ambiances uniques avec des matériaux de qualité pour sublimer vos intérieurs.",
+      title: "Revêtement Décoratif",
+      subtitle: "Finitions esthétiques",
+      content: "Revêtements décoratifs personnalisés. Large gamme de textures, couleurs et finitions pour créer des sols uniques et esthétiques.",
       image: "/plomberie.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/finitions-decoration"
+      href: "/services/revetement-decoratif"
     },
     {
-      title: "Carrelage",
-      subtitle: "Pose de carrelage professionnel",
-      content: "Pose de carrelage sol et mural, faïence, mosaïque. Expertise technique et finitions parfaites pour tous vos projets carrelage.",
+      title: "Réparation et Rénovation",
+      subtitle: "Remise en état professionnelle",
+      content: "Réparation et rénovation de revêtements existants. Expertise technique pour redonner vie à vos sols avec des solutions durables.",
       image: "/placo.png",
       gradientFrom: "#6366f1",
       gradientTo: "#8b5cf6",
-      href: "/services/carrelage"
+      href: "/services/reparation-renovation"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "93260\nÎle-de-France\nRayon d'intervention : Île-de-France",
-    phone: "06 22 84 77 04",
-    email: "batinove2020@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=93260,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "62950\nHauts-de-France\nRayon d'intervention : Hauts-de-France",
+    phone: "06 21 35 23 75",
+    email: "nourmane-62@hotmail.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=62950,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -115,7 +115,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de rénovation intérieure ou ravalement dans le 93260 et Île-de-France"
+        subtitle="Parlons de votre projet de revêtement de sol dans le 62950 et les Hauts-de-France"
         contactInfo={contactInfo} 
       />
 

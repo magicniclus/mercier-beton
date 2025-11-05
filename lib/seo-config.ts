@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "ARCADE BTP - Entreprise de Rénovation en Île-de-France",
-  description: "ARCADE BTP, entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement. Devis gratuit dans le 93260 et Île-de-France.",
+  title: "MERCIER BÉTON - Entreprise de Revêtement de Sol dans les Hauts-de-France",
+  description: "MERCIER BÉTON, entrepreneur du bâtiment spécialisé en revêtement de sol. Devis gratuit dans le 62950 et les Hauts-de-France.",
   keywords: [
-    "rénovation intérieure Île-de-France",
-    "ravalement façade 93260",
-    "entrepreneur bâtiment Île-de-France",
-    "rénovation maison 93260",
-    "travaux rénovation intérieure",
-    "ravalement professionnel",
-    "finitions décoration",
-    "aménagement intérieur",
+    "revêtement de sol Hauts-de-France",
+    "béton ciré 62950",
+    "entrepreneur bâtiment Hauts-de-France",
+    "revêtement sol 62950",
+    "travaux revêtement sol",
+    "béton décoratif",
+    "revêtement industriel",
+    "sol béton",
     "devis gratuit",
-    "ARCADE BTP",
-    "Seif",
-    "rénovation Île-de-France",
+    "MERCIER BÉTON",
+    "Norman Lebreton",
+    "revêtement Hauts-de-France",
     "entrepreneur bâtiment",
-    "SASU rénovation",
-    "travaux bâtiment 93260"
+    "revêtement professionnel",
+    "travaux bâtiment 62950"
   ],
-  author: "Seif",
-  siteUrl: "https://arcadebtp.fr",
-  siteName: "ARCADE BTP - Rénovation",
+  author: "Norman Lebreton",
+  siteUrl: "https://mercier-beton.fr",
+  siteName: "MERCIER BÉTON - Revêtement de Sol",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,50 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "ARCADE BTP",
-  "legalName": "ARCADE BTP - Entrepreneur du bâtiment",
+  "name": "MERCIER BÉTON",
+  "legalName": "Mercier Béton - Entrepreneur du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Seif"
+    "name": "Norman Lebreton"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "93260",
-    "postalCode": "93260",
-    "addressRegion": "Île-de-France",
+    "addressLocality": "62950",
+    "postalCode": "62950",
+    "addressRegion": "Hauts-de-France",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33622847704",
+    "telephone": "+33621352375",
     "contactType": "customer service",
-    "email": "batinove2020@gmail.com",
+    "email": "nourmane-62@hotmail.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Île-de-France"
+      "name": "Hauts-de-France"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Seine-Saint-Denis"
+      "name": "Pas-de-Calais"
     },
     {
       "@type": "City",
-      "name": "93260"
+      "name": "62950"
     }
   ],
   "serviceType": [
-    "Rénovation intérieure",
-    "Ravalement de façade", 
-    "Finitions et décoration",
-    "Aménagement intérieur",
-    "Travaux de rénovation"
+    "Revêtement de sol béton",
+    "Béton ciré", 
+    "Revêtement industriel",
+    "Revêtement décoratif",
+    "Réparation et rénovation"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -172,37 +172,37 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Renovation Services",
+  "serviceType": "Floor Coating Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de rénovation",
+    "name": "Services de revêtement de sol",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Rénovation intérieure",
-          "description": "Travaux de rénovation intérieure professionnels avec finitions parfaites (tout sauf électricité et plomberie)"
+          "name": "Revêtement de sol béton",
+          "description": "Spécialiste du béton ciré et des revêtements décoratifs pour espaces intérieurs et extérieurs"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Ravalement de façade",
-          "description": "Ravalement de façade et rénovation extérieure avec techniques professionnelles"
+          "name": "Revêtement industriel",
+          "description": "Revêtements de sol industriels haute performance pour locaux professionnels"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Finitions et décoration",
-          "description": "Finitions décoratives et aménagement d'espaces avec matériaux de qualité"
+          "name": "Revêtement décoratif",
+          "description": "Revêtements décoratifs personnalisés avec large gamme de textures et couleurs"
         }
       }
     ]

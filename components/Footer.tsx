@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
-    { name: 'Ravalement de Façade', href: '/services/ravalement-facade' },
-    { name: 'Finitions et Décoration', href: '/services/finitions-decoration' },
-    { name: 'Carrelage', href: '/services/carrelage' },
+    { name: 'Revêtement de Sol Béton', href: '/services/revetement-beton' },
+    { name: 'Revêtement Industriel', href: '/services/revetement-industriel' },
+    { name: 'Revêtement Décoratif', href: '/services/revetement-decoratif' },
+    { name: 'Réparation et Rénovation', href: '/services/reparation-renovation' },
   ];
 
   return (
@@ -50,17 +50,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  ARCADE BTP
+                  MERCIER BÉTON
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Entrepreneur du bâtiment spécialisé en rénovation intérieure et ravalement dans le 93260 et Île-de-France.
+                Entrepreneur du bâtiment spécialisé en revêtement de sol dans le 62950 et les Hauts-de-France.
               </p>
               <a 
-                href="tel:0622847704" 
+                href="tel:0621352375" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                06 22 84 77 04
+                06 21 35 23 75
               </a>
             </motion.div>
 
@@ -122,11 +122,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0622847704"
+                  href="tel:0621352375"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>06 22 84 77 04</span>
+                  <span>06 21 35 23 75</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -147,7 +147,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} ARCADE BTP. Tous droits réservés.
+              © {currentYear} MERCIER BÉTON. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

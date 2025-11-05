@@ -19,17 +19,17 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "06 22 84 77 04";
+  const phoneNumber = "06 21 35 23 75";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
-    { name: 'Ravalement de Façade', href: '/services/ravalement-facade' },
-    { name: 'Finitions et Décoration', href: '/services/finitions-decoration' },
-    { name: 'Carrelage', href: '/services/carrelage' },
+    { name: 'Revêtement de Sol Béton', href: '/services/revetement-beton' },
+    { name: 'Revêtement Industriel', href: '/services/revetement-industriel' },
+    { name: 'Revêtement Décoratif', href: '/services/revetement-decoratif' },
+    { name: 'Réparation et Rénovation', href: '/services/reparation-renovation' },
   ];
 
   // Navigation adaptative selon la page
@@ -101,10 +101,10 @@ export default function Navigation() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-foreground">
-                  ARCADE BTP
+                  MERCIER BÉTON
                 </span>
                 <span className="text-sm text-gray-500 font-medium">
-                  rénovation | ravalement
+                  revêtement de sol | béton
                 </span>
               </div>
             </Link>
@@ -288,10 +288,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    ARCADE BTP
+                    MERCIER BÉTON
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    rénovation | ravalement
+                    revêtement de sol | béton
                   </span>
                 </div>
               </div>
