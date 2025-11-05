@@ -4,7 +4,7 @@ import { generateMetadata } from '@/lib/seo-config';
 export default function RavalementFacadePage() {
   const serviceData = {
     serviceName: "Ravalement de Façade",
-    heroImage: "/facade.png",
+    heroImage: "/maison-work.png",
     heroTitle: "Ravalement de Façade Professionnel en Île-de-France",
     heroSubtitle: "ARCADE BTP, spécialiste du ravalement de façade dans le 93260. Devis gratuit pour redonner vie à vos façades avec des techniques professionnelles.",
     sector: "Bâtiment",
@@ -75,6 +75,6 @@ export default function RavalementFacadePage() {
 export const metadata = generateMetadata(
   "Ravalement Façade Île-de-France - Devis Gratuit",
   "ARCADE BTP, spécialiste ravalement façade dans le 93260 et Île-de-France. Devis gratuit. Nettoyage, enduits, peinture façade professionnelle.",
-  "/facade.png",
+  "/maison-work.png",
   "/services/ravalement-facade"
 );

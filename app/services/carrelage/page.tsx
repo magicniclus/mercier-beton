@@ -4,7 +4,7 @@ import { generateMetadata } from '@/lib/seo-config';
 export default function CarrelagePage() {
   const serviceData = {
     serviceName: "Carrelage",
-    heroImage: "/facade.png",
+    heroImage: "/placo.png",
     heroTitle: "Pose de Carrelage Professionnel en Île-de-France",
     heroSubtitle: "ARCADE BTP, expert en pose de carrelage dans le 93260. Devis gratuit pour tous vos projets carrelage sol et mural avec finitions parfaites.",
     sector: "Bâtiment",
@@ -75,6 +75,6 @@ export default function CarrelagePage() {
 export const metadata = generateMetadata(
   "Carrelage Île-de-France - Devis Gratuit",
   "ARCADE BTP, expert pose carrelage dans le 93260 et Île-de-France. Devis gratuit. Carrelage sol, faïence salle de bain, pose professionnelle.",
-  "/facade.png",
+  "/placo.png",
   "/services/carrelage"
 );

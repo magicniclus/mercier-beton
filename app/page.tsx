@@ -51,7 +51,7 @@ export default function Home() {
       title: "Carrelage",
       subtitle: "Pose de carrelage professionnel",
       content: "Pose de carrelage sol et mural, faïence, mosaïque. Expertise technique et finitions parfaites pour tous vos projets carrelage.",
-      image: "/facade.png",
+      image: "/placo.png",
       gradientFrom: "#6366f1",
       gradientTo: "#8b5cf6",
       href: "/services/carrelage"
