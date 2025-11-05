@@ -1,5 +1,3 @@
-'use client';
-
 import ServicePage from '@/components/ServicePage';
 import { generateMetadata } from '@/lib/seo-config';
 
